@@ -13,6 +13,8 @@ and update the session key. If you have the Google Cloud SDK set up, you should
 be able to run a local copy with this command:
 
 ```
+mkdir lib/
+pip install -t lib/ -r requirments.txt
 dev_appserver.py app.yaml
 ```
 
